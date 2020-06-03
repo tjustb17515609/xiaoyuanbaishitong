@@ -1,141 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册</title>
 </head>
 <style>
-    body{
-        font-size: 18px;
-        color:darkmagenta;
-        font-weight: 200;
+    body {
+        background: url(images/background.jpg) no-repeat;
+        background-size: cover;
+        font-size-adjust: 12px;
+        color: rgb(255, 255, 255);
     }
-    h3{
-        color: blue ; font-size: 50px;
+
+    h3 {
+        color: rgb(7, 7, 7);
+        font-size: 70px;
         font-family: 汉真广标;
     }
 
+    form {
+        color: rgb(3, 1, 20);
+        font-family: 汉真广标;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    a {
+        text-decoration: none;
+    }
 </style>
+
 <body>
+    <h3 style="text-align: center;">欢迎注册校园百事通</h3>
+    <!--注册表单-->
+        <form id="form1" method="post">
+                <table width="100%" height="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                                <td>
+                                        <table style="margin:auto">
+                                           
+                        <!--第一行：性别注册-->
+                        <tr>
+                            <td>
+                                性别：
+                            </td>
+                            <td>
+                                <input type="radio" name="sex" checked="checked"><img src="images/GG.jpg" width="10"
+                                    height="15"> 男
+                            </td>
+                            <td>
+                                <input type="radio" name="sex" checked="checked"><img src="images/MM.jpg" width="15"
+                                    height="15"> 女
+                            </td>
+                        </tr>
+                        <!--第二行：生日注册-->
+                        <br>
+                        <tr>
+                            <td>
+                                生日：
+                            </td>
+                            <td>
+                                <select>
+                                    <option>--请选择年份</option>
+                                    <option>1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                    <option>2000</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>--请选择月份--</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
 
-<h3 style="text-align: center;">欢迎注册校园百事通</h3>
-<!--注册表单-->
-<form width="600">
-    <br>
-    <!--第一行：性别注册-->
-    <tr>
-        <td>
-            性别：
-        </td>
-        <td>
-            <input type="radio"name="sex" checked="checked"><img src="images/GG.jpg" width="10" height="15"> 男
-        </td>
-        <td>
-            <input type="radio"name="sex" checked="checked"><img src="images/MM.jpg" width="15" height="15"> 女
-        </td>
-    </tr>
-    <!--第二行：生日注册-->
-    <br>
-    <tr>
-        <td>
-            生日：
-        </td>
-        <td>
-            <select>
-                <option>--请选择年份</option>
-                <option>1996</option>
-                <option>1997</option>
-                <option>1998</option>
-                <option>1999</option>
-                <option>2000</option>
-                <option>2001</option>
-                <option>2002</option>
-            </select>
-        </td>
-        <td>
-            <select>
-                <option >--请选择月份--</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>--请选择日期--</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                </select>
+                            </td>
 
-            </select>
-        </td>
-        <td>
-            <select>
-                <option>--请选择日期--</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-            </select>
-        </td>
+                        </tr>
+                        <!--第三行：所在院系-->
+                        <br>
+                        <tr>
+                            <td>
+                                所在院系：
+                            </td>
+                            <td>
+                                <input type="text" placeholder="请输入你所在学院">
+                            </td>
+                            <td>
+                                <input type="text" placeholder="请输入你所在系别">
+                            </td>
+                        </tr>
+                        <!--第四行：联系方式-->
+                        <br>
+                        <tr>
+                            <td>
+                                联系方式：
+                            </td>
+                            <td>
+                                <input type="text" placeholder="请输入你的联系方式">
+                            </td>
+                        </tr>
+                        <!--第五行：请输入用户名-->
+                        <br>
+                        <tr>
+                            <td>
+                                用户名：
+                            </td>
+                            <td>
+                                <input type="text" placeholder="请输入你的用户名">
+                            </td>
+                        </tr>
+                        <!--第六行：请输入密码-->
+                        <br>
+                        <tr>
+                            <td> 密码：
+                            </td>
+                            <td>
+                                <input type="password">
+                            </td>
+                        </tr>
+                        <!--第七行：免费注册及注册信息重置-->
+                        <br>
+                        <tr>
+                            <td>
+                                <a href="登陆界面.html" target="_blank">
+                                    <input type="button" value="快速登陆">
+                                </a>
 
-    </tr>
-    <!--第三行：所在院系-->
-    <br>
-    <tr>
-        <td>
-            所在院系：
-        </td>
-        <td>
-            <input type="text" placeholder="请输入你所在学院"> 
-        </td>
-        <td>
-            <input type="text" placeholder="请输入你所在系别"> 
-        </td>
-    </tr>
-    <!--第四行：联系方式-->
-    <br>
-    <tr>
-        <td>
-            联系方式：
-        </td>
-        <td>
-            <input type="text" placeholder="请输入你的联系方式">
-        </td>
-    </tr>
-    <!--第五行：请输入用户名-->
-    <br>
-    <tr>
-        <td>
-            用户名：
-        </td>
-        <td>
-            <input type="text" placeholder="请输入你的用户名">
-        </td>
-    </tr>
-    <!--第六行：请输入密码-->
-    <br>
-    <tr>
-        <td> 密码：  
-    </td>  
-    <td>
-        <input type="password">
-    </td>
-    </tr>
-    <!--第七行：免费注册及注册信息重置-->
-    <br>
-    <tr>
-        <td>
-            <a href="登陆界面.html" target="_blank">
-             <input type="button" value="快速登陆">   
-            </a>
-      
-        </td>
-        <td>
-            <input type="reset" value="重置">
-        </td>
-    </tr>
-</form>
+                            </td>
+                            <td>
+                                <input type="reset" value="重置">
+                            </td>
+                        </tr>
+                                           
+                    </table>
+                                    </td>
+                      </tr>
+                    </table>
+            </form>
+
 
 </body>
+
 </html>
