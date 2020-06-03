@@ -3,89 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册页面</title>
+    <title>校园百事通注册页面</title>
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+         #new{
+            color: white;
+            height: 200px;
+        }
+        body{
+            background: url(07.jpg) no-repeat;
+            background-size: cover;
+            font-size-adjust: 12px;
+            color:black;
+        }
+    </style>
 </head>
 <body>
-    <form>
-        <table align="center">
-            <caption><h1>欢迎登陆校园百事通</h1></caption>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名:</th>
-                <td>
-                    <input type="text" maxlength="12" required
-                    pattern="^[a-zA-Z][a-zA-Z0-9_] {4,11}$" autofocus />
-                </td> 
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：</th>
-                <td><input type="radio" name="nan" checked="checked" />男<input type="radio" name="nan" />女</td><br/>
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码:</th>
-                <td>
-                    <input type="password" maxlength="12" required
-                    pattern="^[a-zA-Z]\w{5,17}$" />
-                </td> 
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;密码确认:</th>
-                <td>
-                    <input type="password" required />
-                </td> 
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;真实姓名:</th>
-                <td>
-                    <input type="text" required />
-                </td> 
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;出生日期:</th>
-                <td>
-                    <input name="rirth" type="date" value="1990/10/10" />
-                </td> 
-            </tr>
-            <tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;手机号码:</th>
-                <td>
-                    <input type="tel" pattern="^[3][4][5][8][0-9]\d{4,8}$" />
-                </td> 
-            </tr>
-            <tr>
-                <th>E-mail地址:</th>
-                <td>
-                    <input type="email" multiple />
-                </td> 
-            </tr>
-            <tr>
-            <tr>
-                <th>&nbsp;&nbsp;身份证号码：</th>
-                <td>
-                    <input type="text" pattern="^\d{8,18}|[0-9x]{8,18}|[0-9x]{8,18}?$" />
-                </td> 
-            </tr>
-            <tr>
-                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业：</th>
-                <td>
-                    <select>
-                        <option>信息</option>
-                        <option>通讯</option>
-                        <option>艺术</option>
-                        <option>土木</option>
-                        <option>护理</option>
-                        <option>音表</option>
-                        <option>管理</option>
-                        </select>
-                </td> 
-            </tr>
-            <tr>
-                <td colspan="2" align="center">
-                    <input type="submit" value="免费注册"/>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="reset" value="退出"/>
-                </td>><br/>
-            </tr>
-        </table>
-    </form>
+    <div id="new">
+        <h1><img src="04.png" />校园百事通</h1>
+    </div>
+    <div>
+        <form>
+            <table align="center">
+                <caption><h1>校园百事通注册页面</h1></caption>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名:</th>
+                    <td>
+                        <input type="text" maxlength="12" required
+                        pattern="^[a-zA-Z][a-zA-Z0-9_] {4,11}$" autofocus />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：</th>
+                    <td><input type="radio" name="nan" checked="checked" />男<input type="radio" name="nan" />女</td><br/>
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码:</th>
+                    <td>
+                        <input type="password" maxlength="12" required
+                        pattern="^[a-zA-Z]\w{5,17}$" />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;密码确认:</th>
+                    <td>
+                        <input type="password" required />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;真实姓名:</th>
+                    <td>
+                        <input type="text" required />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;出生日期:</th>
+                    <td>
+                        <input name="rirth" type="date" value="1990/10/10" />
+                    </td> 
+                </tr>
+                <tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;手机号码:</th>
+                    <td>
+                        <input type="tel" pattern="^[3][4][5][8][0-9]\d{4,8}$" />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>E-mail地址:</th>
+                    <td>
+                        <input type="email" multiple />
+                    </td> 
+                </tr>
+                <tr>
+                <tr>
+                    <th>&nbsp;&nbsp;身份证号码：</th>
+                    <td>
+                        <input type="text" pattern="^\d{8,18}|[0-9x]{8,18}|[0-9x]{8,18}?$" />
+                    </td> 
+                </tr>
+                <tr>
+                    <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专业：</th>
+                    <td>
+                        <select>
+                            <option>信息系</option>
+                            <option>经济系</option>
+                            <option>艺术系</option>
+                            <option>土木系</option>
+                            <option>护理系</option>
+                            <option>外语系</option>
+                            <option>管理系</option>
+                            </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="免费注册"/>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="reset" value="退出"/>
+                    </td>><br/>
+                </tr>
+            </table>
+        </form>
+    </div>
 </body>
 </html>
