@@ -1,0 +1,72 @@
+{
+  "id": "1880267",
+  "name": "one",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15162629",
+      "name": "aixin",
+      "font_class": "aixin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15162718",
+      "name": "icon_shiyongwendang",
+      "font_class": "icon_shiyongwendang",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "15192649",
+      "name": "短信",
+      "font_class": "duanxin",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "7119846",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "7120071",
+      "name": "药品",
+      "font_class": "yaopin",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "7120091",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "7120351",
+      "name": "用药",
+      "font_class": "yongyao",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "15253297",
+      "name": "Stats",
+      "font_class": "Stats",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "15253298",
+      "name": "Start",
+      "font_class": "Start",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    }
+  ]
+}

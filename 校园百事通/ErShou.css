@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.eot');
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont/iconfont.woff2') format('woff2'),
+        url('iconfont/iconfont.woff') format('woff'),
+        url('iconfont/iconfont.ttf') format('truetype'),
+        url('iconfont/iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+.w{
+    margin: 0 auto;
+}
+.background{
+
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(image/bg.jpg);
+    /* background-attachment: fixed; */
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.background .box{
+    /* position: fixed; */
+    /* top: 0; */
+    /* background-color: rgb(50, 142, 255); */
+    width: 100%;
+    height: 70px;
+
+} 
+.background .box .logo{
+    float: left;
+    height: 45px;
+    width: 165px;
+    margin-left: 225px;
+    padding-top: 15px;
+}
+li{
+    list-style: none;
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+.background .box .nav{
+    margin-left: 78px;
+    float: left;
+}
+.background .box .nav a{
+    display: inline-block;
+    padding: 23px  20px;
+    font-size: 18px;
+    font-family: 幼圆;
+    font-weight: 700;
+    color: rgb(174, 205, 248);
+}
+.background .box .nav a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom:  1px solid rgb(255, 255, 255);
+}
+.background .box .name{
+    float: left;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 15px;
+    height: 45px;
+    width: 130px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.background .box .name:hover{
+    box-shadow: 1px 1px 1px 2px rgb(242, 242, 242);
+}
+.background .box .name .group{
+    padding-top: 10px;
+    /* vertical-align: middle; */
+    color: rgb(44, 139, 255);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 幼圆;
+
+}
+.one{
+margin-top: 20px;
+    height: 250px;
+    width: 1200px;
+    /* background-color: green; */
+}
+.one .left{
+    float: left;
+    position: relative;
+    height: 250px;
+    width: 350px;
+    /* background-color: hotpink; */
+}
+.one .left img{
+    position: absolute;
+    top: 12.5px;
+    right: 25px;
+}
+.one .right{
+    float: left;
+    width: 850px;
+    height: 250px;
+    /* background-color: khaki; */
+}
+.one .right .top{
+    display: inline-block;
+    height: 32px;
+    width: 100%;
+}
+.one .right .top h2{
+margin-top: 20px;
+/* text-align: center; */
+font-size: 24px;
+font-weight: 700;
+}
+.one .right .middle {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+/* margin-left: 200px; */
+    height: 20px;
+    width: 500px;
+}
+.one .right .bottom{
+    margin-top: 75px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+}
+.one .right .bottom .zuo{
+    float: left;
+    color: rgb(168, 176, 197);
+    margin-top: 12px;
+    padding-left: 20px;
+    font-size: 18px;
+
+}
+.one .right .bottom .you{
+    float: right;
+    color: rgb(168, 176, 197);
+    margin-top: 12px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.one .right .bottom .you a{
+    color: rgb(168, 176, 197);
+}
+.end{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    padding-top: 30px;
+}
